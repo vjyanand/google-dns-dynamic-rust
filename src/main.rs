@@ -9,7 +9,7 @@ use std::str::FromStr;
 ///
 /// * `host` - dynamic host name
 /// * `user` - user credential
-/// * `passord` - password
+/// * `password` - password
 ///
 /// # Example
 /// app_name dyn.example.com user passw
