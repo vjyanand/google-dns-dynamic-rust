@@ -2,11 +2,14 @@
 
 Updates dynamic ip managed by google domains
 
+`cargo install google-dns-dynamic`
+
 # Arguments
+`google-dns-dynamic host user password`
 
 * `host` - dynamic host name
 * `user` - user credential
-* `passord` - password
+* `password` - password
 
 # Example
-app_name dyn.example.com user passw
+google-dns-dynamic dyn.example.com user passw
