@@ -1,5 +1,5 @@
 [package]
-name = "google-dns-dynamic-rust"
+name = "google-dns-dynamic"
 version = "0.1.1"
 edition = "2021"
 repository = "https://github.com/vjyanand/google-dns-dynamic-rust.git"
@@ -7,11 +7,11 @@ license = "MIT OR Apache-2.0"
 description = "Client to update google domains dynamic dns"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[dependencies]
-reqwest = { version = "0.11", default-features = false,features = ["blocking", "rustls-tls"] }
-
-[package]
 include = [
     "**/*.rs",
     "Cargo.toml",
 ]
+
+[dependencies]
+reqwest = { version = "0.11", default-features = false,features = ["blocking", "rustls-tls"] }
+
