@@ -12,4 +12,4 @@ Updates dynamic ip managed by google domains
 * `password` - password
 
 # Example
-google-dns-dynamic dyn.example.com user passw
+google-dns-dynamic dyn.iavian.net user passw
